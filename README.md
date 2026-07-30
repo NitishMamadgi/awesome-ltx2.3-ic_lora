@@ -23,104 +23,413 @@ This list is organized by task. Within each category, the newest verified releas
 - Entries are grouped by task rather than by a single global latest list.
 - Within each category, entries should be sorted by release date in descending order.
 - When an upstream release date is not explicitly published, the Hugging Face model `createdAt` date is used.
-- The list prefers canonical/original model pages over mirrors and reuploads.
+- The list prefers canonical or original model pages over mirrors and reuploads.
 - `Source` marks whether an entry is `Official` or `Community`.
 - `GitHub` is only filled when a clear canonical project repo exists for that model family.
-- `GitHub Stars` uses live Shields badges when a GitHub repo exists.
-- `Videos` is for official demos, showcase videos, or high-signal tutorials for that exact LoRA.
+- `GitHub stars` uses live Shields badges when a GitHub repo exists.
+- Videos are intentionally omitted for now so the entry format can stay flexible.
 
 ## Identity / Character Consistency
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-24 | Homelander_LTX2.3 | ssjenforcer191 | Community | [HF](https://huggingface.co/ssjenforcer191/Homelander_LTX2.3) | - | - | - | Character identity IC LoRA for Homelander-themed subject consistency. |
-| 2026-07-06 | ltx2.3-ic-lora-ingredients-multishot | linoyts | Community | [HF](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot) | - | - | - | Multi-shot ingredients-based reference consistency fine-tune. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Ingredients | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients/resolve/main/examples/ingredients_lora_1.mp4) | Official reference-sheet IC LoRA for character, prop, and brand consistency. |
-| 2026-06-01 | LTX-2.3-Multiple-Subject-Reference | LiconStudio | Official | [HF](https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference) | [GitHub](https://github.com/liconstudio/ComfyUI-Licon-MSR) | [![GitHub Repo stars](https://img.shields.io/github/stars/liconstudio/ComfyUI-Licon-MSR?style=flat-square)](https://github.com/liconstudio/ComfyUI-Licon-MSR) | [Demo](https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference/resolve/main/Validition_V2/01/V2.mp4) | Multi-subject reference IC LoRA for keeping several subjects coherent together. |
-| 2026-03-18 | LTX-2.3-ID-LoRA-CelebVHQ-3K | AviadDahan | Community | [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-CelebVHQ-3K) | [GitHub](https://github.com/ID-LoRA/ID-LoRA) | [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA) | [Demo](https://id-lora.github.io/videos/comparisons/speaker_154_pair2/ours.mp4) | ID-LoRA checkpoint for audio-visual identity transfer trained on CelebVHQ-3K. |
-| 2026-03-18 | LTX-2.3-ID-LoRA-TalkVid-3K | AviadDahan | Community | [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K) | [GitHub](https://github.com/ID-LoRA/ID-LoRA) | [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA) | [Demo](https://id-lora.github.io/videos/gallery/4198/knock.mp4) | ID-LoRA checkpoint aimed at talking-video identity transfer. |
+**Homelander_LTX2.3**  
+Released: `2026-07-24`  
+Author: `ssjenforcer191`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/ssjenforcer191/Homelander_LTX2.3)  
+GitHub stars: `-`  
+Notes: Character identity IC LoRA for Homelander-themed subject consistency.
+
+**ltx2.3-ic-lora-ingredients-multishot**  
+Released: `2026-07-06`  
+Author: `linoyts`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot)  
+GitHub stars: `-`  
+Notes: Multi-shot ingredients-based reference consistency fine-tune.
+
+**LTX-2.3-22b-IC-LoRA-Ingredients**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official reference-sheet IC LoRA for character, prop, and brand consistency.
+
+**LTX-2.3-Multiple-Subject-Reference**  
+Released: `2026-06-01`  
+Author: `LiconStudio`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/LiconStudio/LTX-2.3-Multiple-Subject-Reference) | [GitHub](https://github.com/liconstudio/ComfyUI-Licon-MSR)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/liconstudio/ComfyUI-Licon-MSR?style=flat-square)](https://github.com/liconstudio/ComfyUI-Licon-MSR)  
+Notes: Multi-subject reference IC LoRA for keeping several subjects coherent together.
+
+**LTX-2.3-ID-LoRA-CelebVHQ-3K**  
+Released: `2026-03-18`  
+Author: `AviadDahan`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-CelebVHQ-3K) | [GitHub](https://github.com/ID-LoRA/ID-LoRA)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA)  
+Notes: ID-LoRA checkpoint for audio-visual identity transfer trained on CelebVHQ-3K.
+
+**LTX-2.3-ID-LoRA-TalkVid-3K**  
+Released: `2026-03-18`  
+Author: `AviadDahan`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K) | [GitHub](https://github.com/ID-LoRA/ID-LoRA)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA)  
+Notes: ID-LoRA checkpoint aimed at talking-video identity transfer.
 
 ## Lip Sync / Dubbing
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-05-13 | ltx2-greenscreen-avatar-ic-lora-vertical-v1 | OmerHagage | Community | [HF](https://huggingface.co/OmerHagage/ltx2-greenscreen-avatar-ic-lora-vertical-v1) | - | - | [Demo](https://huggingface.co/OmerHagage/ltx2-greenscreen-avatar-ic-lora-vertical-v1/resolve/main/samples/hq/sample.mp4) | Greenscreen avatar IC LoRA for vertical talking-avatar and presenter-style videos. |
-| 2026-05-11 | LTX-2.3-22b-IC-LoRA-DubIt (LipDub) | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-DubIt) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://justdubit.github.io/assets/videos/teaser_french_ours.mp4) | Official dubbing and lip-sync IC LoRA. The reference README also refers to this family as LipDub. |
+**ltx2-greenscreen-avatar-ic-lora-vertical-v1**  
+Released: `2026-05-13`  
+Author: `OmerHagage`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/OmerHagage/ltx2-greenscreen-avatar-ic-lora-vertical-v1)  
+GitHub stars: `-`  
+Notes: Greenscreen avatar IC LoRA for vertical talking-avatar and presenter-style videos.
+
+**LTX-2.3-22b-IC-LoRA-DubIt (LipDub)**  
+Released: `2026-05-11`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-DubIt) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official dubbing and lip-sync IC LoRA. The reference README also refers to this family as LipDub.
 
 ## Camera / Motion Control
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-23 | LTX2.3-22B_IC-LoRA-Cameraman_v2 | Cseti | Community | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v2) | - | - | [Demo](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v2/resolve/main/assets/test-compa_00007.mp4) | Community camera-motion IC LoRA for pan, zoom, orbit, and shot movement prompts. |
-| 2026-05-29 | ltx2.3-chinese-drama-iclora-pose | SyFeee | Community | [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-pose) | - | - | - | Pose-guided Chinese-drama style control IC LoRA. |
-| 2026-05-29 | ltx2.3-chinese-drama-iclora-depth | SyFeee | Community | [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-depth) | - | - | - | Depth-guided Chinese-drama style control IC LoRA. |
-| 2026-05-29 | ltx2.3-chinese-drama-iclora-canny | SyFeee | Community | [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-canny) | - | - | - | Canny-guided Chinese-drama style control IC LoRA. |
-| 2026-05-18 | LTX-2.3-22b-IC-LoRA-Any-Trajectory-Instruction | yuvraj108c | Community | [HF](https://huggingface.co/yuvraj108c/LTX-2.3-22b-IC-LoRA-Any-Trajectory-Instruction) | [GitHub](https://github.com/bytedance/ATI) | [![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/ATI?style=flat-square)](https://github.com/bytedance/ATI) | - | Community LTX port of trajectory-instruction control for motion-path prompting. |
-| 2026-04-06 | LTX2.3-22B_IC-LoRA-Cameraman_v1 | Cseti | Community | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1) | - | - | [Demo](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1/resolve/main/assets/test_compa_00049.mp4) | Earlier Cameraman release for camera path and shot movement control. |
-| 2026-03-05 | LTX-2.3-22b-IC-LoRA-Motion-Track-Control | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Motion-Track-Control) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [YouTube](https://www.youtube.com/watch?v=f8D2CwF6BIY) | Official motion and track-guided control LoRA. |
-| 2026-03-05 | LTX-2.3-22b-IC-LoRA-Union-Control | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [YouTube](https://www.youtube.com/watch?v=f8D2CwF6BIY) | Official multi-control conditioning LoRA built around control-signal guidance. |
+**LTX2.3-22B_IC-LoRA-Cameraman_v2**  
+Released: `2026-06-23`  
+Author: `Cseti`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v2)  
+GitHub stars: `-`  
+Notes: Community camera-motion IC LoRA for pan, zoom, orbit, and shot movement prompts.
+
+**ltx2.3-chinese-drama-iclora-pose**  
+Released: `2026-05-29`  
+Author: `SyFeee`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-pose)  
+GitHub stars: `-`  
+Notes: Pose-guided Chinese-drama style control IC LoRA.
+
+**ltx2.3-chinese-drama-iclora-depth**  
+Released: `2026-05-29`  
+Author: `SyFeee`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-depth)  
+GitHub stars: `-`  
+Notes: Depth-guided Chinese-drama style control IC LoRA.
+
+**ltx2.3-chinese-drama-iclora-canny**  
+Released: `2026-05-29`  
+Author: `SyFeee`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-canny)  
+GitHub stars: `-`  
+Notes: Canny-guided Chinese-drama style control IC LoRA.
+
+**LTX-2.3-22b-IC-LoRA-Any-Trajectory-Instruction**  
+Released: `2026-05-18`  
+Author: `yuvraj108c`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/yuvraj108c/LTX-2.3-22b-IC-LoRA-Any-Trajectory-Instruction) | [GitHub](https://github.com/bytedance/ATI)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/ATI?style=flat-square)](https://github.com/bytedance/ATI)  
+Notes: Community LTX port of trajectory-instruction control for motion-path prompting.
+
+**LTX2.3-22B_IC-LoRA-Cameraman_v1**  
+Released: `2026-04-06`  
+Author: `Cseti`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1)  
+GitHub stars: `-`  
+Notes: Earlier Cameraman release for camera path and shot movement control.
+
+**LTX-2.3-22b-IC-LoRA-Motion-Track-Control**  
+Released: `2026-03-05`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Motion-Track-Control) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official motion and track-guided control LoRA.
+
+**LTX-2.3-22b-IC-LoRA-Union-Control**  
+Released: `2026-03-05`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official multi-control conditioning LoRA built around control-signal guidance.
 
 ## Editing / Cleanup
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-27 | ltx-2.3-22b-ic-lora-lens_remover | JanKanta | Community | [HF](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover) | - | - | [Demo](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover/resolve/main/Showcase.mp4) | Community restoration model focused on removing lens flare and lens artifacts. |
-| 2026-07-19 | LTX-2.3-22b-IC-LoRA-Clean-Plate | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate/resolve/main/examples/clean_plate_001_output_sbs.mp4) | Official clean-plate and object-removal IC LoRA for VFX prep. |
-| 2026-04-23 | LTX2.3-ICEdit-Insight | joyfox | Official | [HF](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | [GitHub](https://github.com/joyfoxai/LTX2-ICEdit-Insight) | [![GitHub Repo stars](https://img.shields.io/github/stars/joyfoxai/LTX2-ICEdit-Insight?style=flat-square)](https://github.com/joyfoxai/LTX2-ICEdit-Insight) | - | Editing and cleanup suite for watermark, subtitle, and structure-aware correction tasks. |
+**ltx-2.3-22b-ic-lora-lens_remover**  
+Released: `2026-07-27`  
+Author: `JanKanta`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover)  
+GitHub stars: `-`  
+Notes: Community restoration model focused on removing lens flare and lens artifacts.
+
+**LTX-2.3-22b-IC-LoRA-Clean-Plate**  
+Released: `2026-07-19`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official clean-plate and object-removal IC LoRA for VFX prep.
+
+**LTX2.3-ICEdit-Insight**  
+Released: `2026-04-23`  
+Author: `joyfox`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | [GitHub](https://github.com/joyfoxai/LTX2-ICEdit-Insight)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/joyfoxai/LTX2-ICEdit-Insight?style=flat-square)](https://github.com/joyfoxai/LTX2-ICEdit-Insight)  
+Notes: Editing and cleanup suite for watermark, subtitle, and structure-aware correction tasks.
 
 ## Enhancement / Restoration
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-23 | LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler/resolve/main/examples/spatial_upscale_4x_sbs.mp4) | Official pixel-space upscaler for video super-resolution. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Deblur | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Deblur) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Deblur/resolve/main/examples/Examples_4__00_15485932_sbs.mp4) | Restores focus and sharpness while preserving the shot layout. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Decompression | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Decompression) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Decompression/resolve/main/examples/Examples_2__27_sunflower_field_sbs.mp4) | Repairs compression artifacts such as macroblocking and ringing. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Colorization | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization/resolve/main/examples/Examples_5__00_rabbit_rocks_sbs.mp4) | Colorizes grayscale footage while keeping framing and motion intact. |
-| 2026-05-07 | ltx-2.3-dearchive-lora | oumoumad | Community | [HF](https://huggingface.co/oumoumad/ltx-2.3-dearchive-lora) | - | - | - | Archive restoration and remastering IC LoRA for old footage modernization. |
-| 2026-04-28 | LTX-2.3-22b-IC-LoRA-Deinterlace | oumoumad | Community | [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Deinterlace) | - | - | - | Deinterlacing-focused restoration IC LoRA. |
-| 2026-04-20 | LTX-2.3-22b-IC-LoRA-ReFocus | oumoumad | Community | [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-ReFocus) | - | - | - | Refocus and lens-blur restoration IC LoRA. |
+**LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler**  
+Released: `2026-06-23`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official pixel-space upscaler for video super-resolution.
+
+**LTX-2.3-22b-IC-LoRA-Deblur**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Deblur) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Restores focus and sharpness while preserving the shot layout.
+
+**LTX-2.3-22b-IC-LoRA-Decompression**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Decompression) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Repairs compression artifacts such as macroblocking and ringing.
+
+**LTX-2.3-22b-IC-LoRA-Colorization**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Colorizes grayscale footage while keeping framing and motion intact.
+
+**ltx-2.3-dearchive-lora**  
+Released: `2026-05-07`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/ltx-2.3-dearchive-lora)  
+GitHub stars: `-`  
+Notes: Archive restoration and remastering IC LoRA for old footage modernization.
+
+**LTX-2.3-22b-IC-LoRA-Deinterlace**  
+Released: `2026-04-28`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Deinterlace)  
+GitHub stars: `-`  
+Notes: Deinterlacing-focused restoration IC LoRA.
+
+**LTX-2.3-22b-IC-LoRA-ReFocus**  
+Released: `2026-04-20`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-ReFocus)  
+GitHub stars: `-`  
+Notes: Refocus and lens-blur restoration IC LoRA.
 
 ## Relighting / HDR / Tone
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-27 | LTX-2.3-22b-IC-LoRA-Relight | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Relight) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Relight/resolve/main/examples/01_ocean_output_lora_sbs.mp4) | Official relighting LoRA for matching target light direction and intensity. |
-| 2026-07-27 | LTX-2.3-Black-Magic-LoRA | FuzzPuppy | Community | [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA) | - | - | [Demo](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA/resolve/main/examples/back-poi.mp4) | Community low-light reconstruction and shadow-detail recovery IC LoRA. |
-| 2026-07-22 | LTX-2.3-22b-IC-LoRA-Golden-Hour | Hoffm4nz | Community | [HF](https://huggingface.co/Hoffm4nz/LTX-2.3-22b-IC-LoRA-Golden-Hour) | - | - | - | Community golden-hour relighting and tone-shift LoRA. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Day-To-Night | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Day-To-Night) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Day-To-Night/resolve/main/examples/p_ind_35318605_night.mp4) | Time-of-day relighting from daylight to night scenes. |
-| 2026-04-20 | LTX-2.3-22b-IC-LoRA-HDR | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://hdr-lumivid.github.io/videos/carousel_night_glow_sdr_vs_hdr.mp4) | Official HDR and tone-enhancement IC LoRA. |
-| 2026-04-06 | LTX-2.3-22b-IC-LoRA-Ungrade | oumoumad | Community | [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade) | - | - | - | Community color ungrading IC LoRA for neutralizing stylized grades. |
+**LTX-2.3-22b-IC-LoRA-Relight**  
+Released: `2026-07-27`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Relight) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official relighting LoRA for matching target light direction and intensity.
+
+**LTX-2.3-Black-Magic-LoRA**  
+Released: `2026-07-27`  
+Author: `FuzzPuppy`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA)  
+GitHub stars: `-`  
+Notes: Community low-light reconstruction and shadow-detail recovery IC LoRA.
+
+**LTX-2.3-22b-IC-LoRA-Golden-Hour**  
+Released: `2026-07-22`  
+Author: `Hoffm4nz`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Hoffm4nz/LTX-2.3-22b-IC-LoRA-Golden-Hour)  
+GitHub stars: `-`  
+Notes: Community golden-hour relighting and tone-shift LoRA.
+
+**LTX-2.3-22b-IC-LoRA-Day-To-Night**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Day-To-Night) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Time-of-day relighting from daylight to night scenes.
+
+**LTX-2.3-22b-IC-LoRA-HDR**  
+Released: `2026-04-20`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official HDR and tone-enhancement IC LoRA.
+
+**LTX-2.3-22b-IC-LoRA-Ungrade**  
+Released: `2026-04-06`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade)  
+GitHub stars: `-`  
+Notes: Community color ungrading IC LoRA for neutralizing stylized grades.
 
 ## Outpaint / Expansion / Viewpoint
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-20 | LTX2.3-22B_IC-LoRA-CrossView-Warp | Cseti | Community | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp) | - | - | [Demo](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp/resolve/main/assets/example_keyframe_01.mp4) | Depth-warp proof-of-concept for viewpoint transfer and novel views. |
-| 2026-07-11 | LTX2.3-22B_IC-LoRA-CrossView-Prompt | Cseti | Community | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Prompt) | - | - | [Demo](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Prompt/resolve/main/assets/example_warrior_right-lower-closer.mp4) | Prompt-steered novel-view and camera-viewpoint generation. |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-In-Outpainting | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [YouTube](https://www.youtube.com/watch?v=f8D2CwF6BIY) | Official inpainting and outpainting IC LoRA. |
-| 2026-04-23 | VR-360-Outpaint-LTX2.3-IC-LoRA | TheBurgstall | Community | [HF](https://huggingface.co/TheBurgstall/VR-360-Outpaint-LTX2.3-IC-LoRA) | - | - | [Demo](https://huggingface.co/TheBurgstall/VR-360-Outpaint-LTX2.3-IC-LoRA/resolve/main/junglePAN.mp4) | 360 and equirectangular VR outpainting model. |
-| 2026-04-09 | LTX-2.3-22b-IC-LoRA-Outpaint | oumoumad | Community | [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) | - | - | - | Early community outpaint checkpoint for LTX 2.3. |
+**LTX2.3-22B_IC-LoRA-CrossView-Warp**  
+Released: `2026-07-20`  
+Author: `Cseti`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp)  
+GitHub stars: `-`  
+Notes: Depth-warp proof-of-concept for viewpoint transfer and novel views.
+
+**LTX2.3-22B_IC-LoRA-CrossView-Prompt**  
+Released: `2026-07-11`  
+Author: `Cseti`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Prompt)  
+GitHub stars: `-`  
+Notes: Prompt-steered novel-view and camera-viewpoint generation.
+
+**LTX-2.3-22b-IC-LoRA-In-Outpainting**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official inpainting and outpainting IC LoRA.
+
+**VR-360-Outpaint-LTX2.3-IC-LoRA**  
+Released: `2026-04-23`  
+Author: `TheBurgstall`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/TheBurgstall/VR-360-Outpaint-LTX2.3-IC-LoRA)  
+GitHub stars: `-`  
+Notes: 360 and equirectangular VR outpainting model.
+
+**LTX-2.3-22b-IC-LoRA-Outpaint**  
+Released: `2026-04-09`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint)  
+GitHub stars: `-`  
+Notes: Early community outpaint checkpoint for LTX 2.3.
 
 ## Style Transfer / Restyle
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-25 | ltx-2.3-22b-ic-lora-abercrom-me | CoachBate | Community | [HF](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me) | - | - | [Demo](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me/resolve/main/ABERCROM-ME%20Demo.mp4) | Editorial fashion restyle IC LoRA. |
-| 2026-06-26 | LTX-2.3-3DREAL-LoRA | fal | Official | [HF](https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA) | - | - | [Demo](https://v3b.fal.media/files/b/0aa214f8/Ujp4qt6Lk3MfjyAh35gQv_blog_stack_gorge.mp4) | Official render-to-real IC LoRA for pushing 3D inputs toward photoreal outputs. |
-| 2026-05-05 | LTX2.3-22B_ReStyle_IC-LoRA | Cseti | Community | [HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA) | - | - | [Demo](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA/resolve/main/assets/test-triplet_00125.mp4) | Community restyle model with broad video style-transfer examples. |
+**ltx-2.3-22b-ic-lora-abercrom-me**  
+Released: `2026-07-25`  
+Author: `CoachBate`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me)  
+GitHub stars: `-`  
+Notes: Editorial fashion restyle IC LoRA.
+
+**LTX-2.3-3DREAL-LoRA**  
+Released: `2026-06-26`  
+Author: `fal`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA)  
+GitHub stars: `-`  
+Notes: Official render-to-real IC LoRA for pushing 3D inputs toward photoreal outputs.
+
+**LTX2.3-22B_ReStyle_IC-LoRA**  
+Released: `2026-05-05`  
+Author: `Cseti`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA)  
+GitHub stars: `-`  
+Notes: Community restyle model with broad video style-transfer examples.
 
 ## Multi-purpose / Experimental
 
-| Release Date | LoRA / Repo | Author | Source | Hugging Face | GitHub | GitHub Stars | Videos | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-17 | LTX-2.3-22b-IC-LoRA-Water-Simulation | Lightricks | Official | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Water-Simulation) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2) | [Demo](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Water-Simulation/resolve/main/examples/rabbit_forest_sbs.mp4) | Official VFX-oriented IC LoRA for adding water, flood, and stream behavior. |
-| 2026-06-01 | LTX-2.3-22b-IC-LoRA-Audio-Only-Context | fbjr | Community | [HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Audio-Only-Context) | - | - | [Demo](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Audio-Only-Context/resolve/main/assets/example_dialogue_cross_modal.mp4) | Experimental audio-only IC context and identity conditioning. |
-| 2026-05-30 | LTX-2.3-22b-IC-LoRA-Helium | fbjr | Community | [HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Helium) | - | - | [Demo](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Helium/resolve/main/assets/example_1960s_era.mp4) | Experimental audio-driven pitch and style effect LoRA. |
-| 2026-05-13 | SYSTMS-FLW-IC-LORA-LTX-2.3 | systms | Community | [HF](https://huggingface.co/systms/SYSTMS-FLW-IC-LORA-LTX-2.3) | - | - | - | Seamless transition and shot-bridging IC LoRA. |
-| 2026-04-18 | fxic-ltx2-iclora | oumoumad | Community | [HF](https://huggingface.co/oumoumad/fxic-ltx2-iclora) | - | - | - | Experimental IC LoRA with sparse upstream documentation. |
-| 2026-04-13 | ltx2.3-staging-ic-lora-512 | Nightfury16 | Community | [HF](https://huggingface.co/Nightfury16/ltx2.3-staging-ic-lora-512) | - | - | - | Staging and composition-oriented IC LoRA with minimal documentation. |
-| 2026-04-04 | MergeGreen_IC-lora_ltx2.3 | siraxe | Community | [HF](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3) | - | - | [Demo](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3/resolve/main/vid/w1.mp4) | Transition and loop control IC LoRA using green-fill merge frames. |
-| 2026-03-18 | TTM_IC-lora_ltx2.3 | siraxe | Community | [HF](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3) | - | - | [Demo](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3/resolve/main/vid/w1.mp4) | Experimental inserted-cutout and motion-transfer IC LoRA. |
+**LTX-2.3-22b-IC-LoRA-Water-Simulation**  
+Released: `2026-06-17`  
+Author: `Lightricks`  
+Source: `Official`  
+Links: [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Water-Simulation) | [GitHub](https://github.com/Lightricks/LTX-2)  
+GitHub stars: [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+Notes: Official VFX-oriented IC LoRA for adding water, flood, and stream behavior.
+
+**LTX-2.3-22b-IC-LoRA-Audio-Only-Context**  
+Released: `2026-06-01`  
+Author: `fbjr`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Audio-Only-Context)  
+GitHub stars: `-`  
+Notes: Experimental audio-only IC context and identity conditioning.
+
+**LTX-2.3-22b-IC-LoRA-Helium**  
+Released: `2026-05-30`  
+Author: `fbjr`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Helium)  
+GitHub stars: `-`  
+Notes: Experimental audio-driven pitch and style effect LoRA.
+
+**SYSTMS-FLW-IC-LORA-LTX-2.3**  
+Released: `2026-05-13`  
+Author: `systms`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/systms/SYSTMS-FLW-IC-LORA-LTX-2.3)  
+GitHub stars: `-`  
+Notes: Seamless transition and shot-bridging IC LoRA.
+
+**fxic-ltx2-iclora**  
+Released: `2026-04-18`  
+Author: `oumoumad`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/oumoumad/fxic-ltx2-iclora)  
+GitHub stars: `-`  
+Notes: Experimental IC LoRA with sparse upstream documentation.
+
+**ltx2.3-staging-ic-lora-512**  
+Released: `2026-04-13`  
+Author: `Nightfury16`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/Nightfury16/ltx2.3-staging-ic-lora-512)  
+GitHub stars: `-`  
+Notes: Staging and composition-oriented IC LoRA with minimal documentation.
+
+**MergeGreen_IC-lora_ltx2.3**  
+Released: `2026-04-04`  
+Author: `siraxe`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3)  
+GitHub stars: `-`  
+Notes: Transition and loop control IC LoRA using green-fill merge frames.
+
+**TTM_IC-lora_ltx2.3**  
+Released: `2026-03-18`  
+Author: `siraxe`  
+Source: `Community`  
+Links: [HF](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3)  
+GitHub stars: `-`  
+Notes: Experimental inserted-cutout and motion-transfer IC LoRA.
 
 ## Contribution Format
 
@@ -134,5 +443,4 @@ When adding a new entry:
 6. Add the canonical Hugging Face model page.
 7. Add the canonical GitHub repo only when there is a clear direct project repo.
 8. Use a live GitHub stars badge when a GitHub repo exists.
-9. Add an official demo, showcase video, or strong tutorial link in `Videos` when available.
-10. Add one short note describing what the IC LoRA is for.
+9. Add one short note describing what the IC LoRA is for.
