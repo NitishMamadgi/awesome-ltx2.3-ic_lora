@@ -61,7 +61,8 @@ This list is organized by task. Within each category, the newest verified releas
 **LTX-2.3-22b-IC-LoRA-DubIt (LipDub)**  
 &nbsp;&nbsp;`2026-05-11 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-DubIt) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
-&nbsp;&nbsp;Official dubbing and lip-sync IC LoRA. The reference README also refers to this family as LipDub.
+&nbsp;&nbsp;Official dubbing and lip-sync IC LoRA. The reference README also refers to this family as LipDub.  
+&nbsp;&nbsp;[Benji's AI Playground](https://www.youtube.com/watch?v=pF9wv-yqnhI) | [ComfyUI](https://www.youtube.com/watch?v=2PEKKU4a924)
 
 ## Camera / Motion Control
 
@@ -98,12 +99,14 @@ This list is organized by task. Within each category, the newest verified releas
 **LTX-2.3-22b-IC-LoRA-Motion-Track-Control**  
 &nbsp;&nbsp;`2026-03-05 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Motion-Track-Control) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
-&nbsp;&nbsp;Official motion and track-guided control LoRA.
+&nbsp;&nbsp;Official motion and track-guided control LoRA.  
+&nbsp;&nbsp;[Benji's AI Playground](https://www.youtube.com/watch?v=Jf1QzQKTH1w) | [AxiomGraph](https://www.youtube.com/watch?v=8z3aAz4poyQ)
 
 **LTX-2.3-22b-IC-LoRA-Union-Control**  
 &nbsp;&nbsp;`2026-03-05 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
-&nbsp;&nbsp;Official multi-control conditioning LoRA built around control-signal guidance.
+&nbsp;&nbsp;Official multi-control conditioning LoRA built around control-signal guidance.  
+&nbsp;&nbsp;[Prompt Mastery](https://www.youtube.com/watch?v=u1eA8WJeO4s) | [Benji's AI Playground](https://www.youtube.com/watch?v=Jf1QzQKTH1w)
 
 ## Editing / Cleanup
 
