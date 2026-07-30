@@ -34,6 +34,7 @@ This list is organized by task. Within each category, the newest verified releas
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
 &nbsp;&nbsp;Official reference-sheet IC LoRA for character, prop, and brand consistency.
+&nbsp;&nbsp;[Benji's AI Playground](https://www.youtube.com/watch?v=P-nRo5muRCM) | [MaxonShire](https://www.youtube.com/watch?v=7nMTLCfohqs) | [AntIMatter](https://www.youtube.com/watch?v=guxp6uFqwn8)
 
 **LTX-2.3-Multiple-Subject-Reference**  
 &nbsp;&nbsp;`2026-06-01 | LiconStudio | Official`  
