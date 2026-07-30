@@ -18,17 +18,6 @@ This list is organized by task. Within each category, the newest verified releas
 - [Multi-purpose / Experimental](#multi-purpose--experimental)
 - [Contribution Format](#contribution-format)
 
-## How This Repo Is Organized
-
-- Entries are grouped by task rather than by a single global latest list.
-- Within each category, entries should be sorted by release date in descending order.
-- When an upstream release date is not explicitly published, the Hugging Face model `createdAt` date is used.
-- The list prefers canonical or original model pages over mirrors and reuploads.
-- `Source` marks whether an entry is `Official` or `Community`.
-- `GitHub` is only filled when a clear canonical project repo exists for that model family.
-- `GitHub stars` uses live Shields badges when a GitHub repo exists.
-- Each entry uses three compact indented lines: metadata, links, then notes.
-
 ## Identity / Character Consistency
 
 **Homelander_LTX2.3**  
