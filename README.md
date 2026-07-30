@@ -1,80 +1,81 @@
 # awesome-ltx2.3-ic_lora
 
-A curated collection of the latest LTX 2.3 IC LoRAs from official and community sources.
+A curated index of LTX 2.3 IC LoRAs from official and community sources.
 
-This repository is organized with the newest releases at the top, so recent additions are always easiest to find.
+This list is organized by task. Within each category, the newest release goes at the top.
 
 ## Contents
 
-- [Latest Releases](#latest-releases)
-- [Official Releases](#official-releases)
-- [Community Releases](#community-releases)
-- [Task Categories](#task-categories)
+- [How This Repo Is Organized](#how-this-repo-is-organized)
+- [Identity / Character Consistency](#identity--character-consistency)
+- [Lip Sync / Dubbing](#lip-sync--dubbing)
+- [Camera / Motion Control](#camera--motion-control)
+- [Editing / Cleanup](#editing--cleanup)
+- [Enhancement / Restoration](#enhancement--restoration)
+- [Relighting / HDR / Tone](#relighting--hdr--tone)
+- [Outpaint / Expansion / Viewpoint](#outpaint--expansion--viewpoint)
+- [Style Transfer / Restyle](#style-transfer--restyle)
+- [Multi-purpose / Experimental](#multi-purpose--experimental)
 - [Contribution Format](#contribution-format)
 
-## Latest Releases
+## How This Repo Is Organized
 
-Add every new release to the top of this table.
+- Entries are grouped by task rather than by a single global latest list.
+- Within each category, entries should be sorted by release date in descending order.
+- Where an upstream release date is not explicitly published, the earliest visible model publish date is used.
+- `Source` marks whether an entry is `Official` or `Community`.
+- `Links` should include Hugging Face and GitHub when available.
+- `GitHub Stars` uses live Shields badges when a GitHub repo exists.
+- The initial seed entries below were taken from the IC LoRA references listed in `wildminder/awesome-ltx2` and can be expanded over time.
 
-| Release date | Name | Source | Task type | Link | Notes |
-| --- | --- | --- | --- | --- | --- |
-| YYYY-MM-DD | Example IC LoRA | Official / Community | General | Link | Short description |
+## Identity / Character Consistency
 
-## Official Releases
+| Release Date | LoRA / Repo | Author | Source | Links | GitHub Stars | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-03-18 | ID-LoRA-TalkVid-3K | AviadDahan | Community | [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K)<br>[GitHub](https://github.com/ID-LoRA/ID-LoRA) | [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA) | LTX 2.3 ID-LoRA for identity-preserving talking-head style audio-video generation. |
+| 2026-03-18 | ID-LoRA-CelebVHQ-3K | AviadDahan | Community | [HF](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-CelebVHQ-3K)<br>[GitHub](https://github.com/ID-LoRA/ID-LoRA) | [![GitHub Repo stars](https://img.shields.io/github/stars/ID-LoRA/ID-LoRA?style=flat-square)](https://github.com/ID-LoRA/ID-LoRA) | LTX 2.3 ID-LoRA for identity transfer and consistency on the CelebVHQ-3K training set. |
 
-Newest entries should stay at the top.
+## Lip Sync / Dubbing
 
-| Release date | Name | Task type | Link | Notes |
-| --- | --- | --- | --- | --- |
-| YYYY-MM-DD | Example official IC LoRA | General | Link | Short description |
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-## Community Releases
+## Camera / Motion Control
 
-Newest entries should stay at the top.
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-| Release date | Name | Creator | Task type | Link | Notes |
-| --- | --- | --- | --- | --- | --- |
-| YYYY-MM-DD | Example community IC LoRA | Creator name | General | Link | Short description |
+## Editing / Cleanup
 
-## Task Categories
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-This section gives readers a second way to browse the collection. The exact categories can evolve as the list grows.
+## Enhancement / Restoration
 
-### General
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-Use this section for versatile IC LoRAs that are not tied to a narrow workflow.
+## Relighting / HDR / Tone
 
-### Character
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-Use this section for identity, subject, or character consistency focused LoRAs.
+## Outpaint / Expansion / Viewpoint
 
-### Style
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-Use this section for visual style, look, or aesthetic adaptation LoRAs.
+## Style Transfer / Restyle
 
-### Motion
+No direct standalone LTX 2.3 IC LoRA model pages seeded here yet.
 
-Use this section for movement, action, or temporal behavior focused LoRAs.
+## Multi-purpose / Experimental
 
-### Scene / Composition
-
-Use this section for framing, layout, camera, or scene control LoRAs.
-
-### Workflow Utility
-
-Use this section for helper LoRAs that support specific pipelines or production tasks.
+The reference repo mentions several IC-related workflow dependencies, but they are not listed there with a direct standalone model page yet. These can be added once their canonical Hugging Face or GitHub sources are confirmed.
 
 ## Contribution Format
 
 When adding a new entry:
 
-1. Put the newest release at the top of the relevant table.
-2. Use the original release date when possible.
-3. Mark whether the source is official or community.
-4. Assign the closest task type for filtering and browsing.
-5. Include the original release link and a short note.
-
-## Notes
-
-- This repository is intended to be a living index.
-- The structure can be refined as clearer task groupings emerge.
+1. Put it in the closest task category.
+2. Keep the newest release at the top of that category.
+3. Use the original release date when possible.
+4. Include the author or organization.
+5. Mark the source as `Official` or `Community`.
+6. Add Hugging Face and GitHub links when available.
+7. Use a live GitHub stars badge when a GitHub repo exists.
+8. Add one short note describing what the IC LoRA is for.
