@@ -31,6 +31,11 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;ID-LoRA checkpoint aimed at talking-video identity transfer.  
 &nbsp;&nbsp;[Benji's AI Playground](https://www.youtube.com/watch?v=ct9V0THepLs) | [ComfyUI Workflow Blog](https://www.youtube.com/watch?v=-NPcoFF6QkU) | [jingchen573](https://www.youtube.com/watch?v=RtZ9mDamR1w) | [LiuGenAI](https://www.youtube.com/watch?v=EB56mH0kxDE)
 
+**LiconStudio/Ltx2.3-VBVR-lora-I2V**  
+&nbsp;&nbsp;`2026-04-08 | LiconStudio | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) | - | -  
+&nbsp;&nbsp;VBVR image-to-video LoRA for stronger visual and logical consistency in generated clips.
+
 **Muapi/ltx2.3-ic-lora-dual-character**  
 &nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) | - | -  
@@ -97,6 +102,16 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;Community LTX port of trajectory-instruction control for motion-path prompting.  
 &nbsp;&nbsp;[@jun_kongo](https://www.youtube.com/watch?v=j8WzL-RA0EA)
 
+**Kijai/LTX2-IC-LoRAs**  
+&nbsp;&nbsp;`2026-04-22 | Kijai | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Kijai/LTX2-IC-LoRAs) | - | -  
+&nbsp;&nbsp;Bundle of community IC LoRAs including RealisDance and SAM3DBody style control variants.
+
+**Muapi/cameraman-ic-lora-for-ltx2.3-22b**  
+&nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Muapi/cameraman-ic-lora-for-ltx2.3-22b) | - | -  
+&nbsp;&nbsp;Alternate community Cameraman-style IC LoRA for camera movement control.
+
 **ltx2.3-chinese-drama-iclora-canny**  
 &nbsp;&nbsp;`2026-05-29 | SyFeee | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-canny) | - | -  
@@ -149,6 +164,11 @@ This list is organized by task. Within each category, entries are ordered from o
 
 ## Enhancement / Restoration
 
+**DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer**  
+&nbsp;&nbsp;`2026-03-13 | DoctorDiffusion | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer) | - | -  
+&nbsp;&nbsp;Community colorization IC LoRA for black-and-white to color restoration workflows.
+
 **LTX-2.3-22b-IC-LoRA-ReFocus**  
 &nbsp;&nbsp;`2026-04-20 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-ReFocus) | - | -  
@@ -175,6 +195,11 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/ltx-2.3-dearchive-lora) | - | -  
 &nbsp;&nbsp;Archive restoration and remastering IC LoRA for old footage modernization.  
 &nbsp;&nbsp;[Fuzz Puppy](https://www.youtube.com/watch?v=nZqbHNhAVlo) | [tintwotin](https://www.youtube.com/watch?v=P8RF8CBbTWM)
+
+**Zlikwid/LTX_2.3_Upscale_IC_Lora**  
+&nbsp;&nbsp;`2026-05-07 | Zlikwid | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Zlikwid/LTX_2.3_Upscale_IC_Lora) | - | -  
+&nbsp;&nbsp;Community upscale IC LoRA with multiple training checkpoints and example videos.
 
 **LTX-2.3-22b-IC-LoRA-Deblur**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
@@ -213,6 +238,11 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;Official HDR and tone-enhancement IC LoRA.  
 &nbsp;&nbsp;[Sudo AI](https://www.youtube.com/watch?v=_jtZcTZPLy0) | [Nathan Shipley](https://www.youtube.com/watch?v=sBGgMKqLL5E) | [Doug Hogan](https://www.youtube.com/watch?v=_XJGXO9ATqk) | [AxiomGraph](https://www.youtube.com/watch?v=nGzS6McrONo) | [Vantage with AI](https://www.youtube.com/watch?v=h9gsNK2YFro)
 
+**Muapi/ltx2.3_ic_hdr_lora**  
+&nbsp;&nbsp;`2026-05-25 | Muapi | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3_ic_hdr_lora) | - | -  
+&nbsp;&nbsp;Community HDR-style IC LoRA variant for LTX 2.3.
+
 **LTX-2.3-22b-IC-LoRA-Day-To-Night**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Day-To-Night) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
@@ -249,6 +279,11 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;360 and equirectangular VR outpainting model.  
 &nbsp;&nbsp;[Ernest Marine](https://www.youtube.com/watch?v=N08iCIzheeQ)
 
+**Muapi/vr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora**  
+&nbsp;&nbsp;`2026-05-26 | Muapi | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Muapi/vr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora) | - | -  
+&nbsp;&nbsp;Community VR and equirectangular outpaint IC LoRA variant for LTX 2.3.
+
 **LTX-2.3-22b-IC-LoRA-In-Outpainting**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
@@ -271,6 +306,11 @@ This list is organized by task. Within each category, entries are ordered from o
 &nbsp;&nbsp;`2026-05-05 | Cseti | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA) | - | -  
 &nbsp;&nbsp;Community restyle model with broad video style-transfer examples.
+
+**Muapi/ltx2.3-restyle-ic-lora**  
+&nbsp;&nbsp;`2026-05-26 | Muapi | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-restyle-ic-lora) | - | -  
+&nbsp;&nbsp;Community restyle IC LoRA variant for LTX 2.3.
 
 **LTX-2.3-3DREAL-LoRA**  
 &nbsp;&nbsp;`2026-06-26 | fal | Official`  
