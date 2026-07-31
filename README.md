@@ -40,8 +40,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **Muapi/ltx2.3-ic-lora-dual-character**  
 &nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FMuapi%2Fltx2.3-ic-lora-dual-character&logo=huggingface&style=flat-square)](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character)  
-&nbsp;&nbsp;Dual-character IC LoRA for keeping two subjects consistent in the same scene.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Dual-character IC LoRA for keeping two subjects consistent in the same scene. -
 
 **LTX-2.3-Multiple-Subject-Reference**  
 &nbsp;&nbsp;`2026-06-01 | LiconStudio | Official`  
@@ -58,14 +57,12 @@ This list is organized by task. Within each category, entries are ordered from o
 **ltx2.3-ic-lora-ingredients-multishot**  
 &nbsp;&nbsp;`2026-07-06 | linoyts | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Flinoyts%2Fltx2.3-ic-lora-ingredients-multishot&logo=huggingface&style=flat-square)](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot)  
-&nbsp;&nbsp;Multi-shot ingredients-based reference consistency fine-tune.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Multi-shot ingredients-based reference consistency fine-tune. -
 
 **Homelander_LTX2.3**  
 &nbsp;&nbsp;`2026-07-24 | ssjenforcer191 | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/ssjenforcer191/Homelander_LTX2.3) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fssjenforcer191%2FHomelander_LTX2.3&logo=huggingface&style=flat-square)](https://huggingface.co/ssjenforcer191/Homelander_LTX2.3)  
-&nbsp;&nbsp;Character identity IC LoRA for Homelander-themed subject consistency.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Character identity IC LoRA for Homelander-themed subject consistency. -
 
 ## Lip Sync / Dubbing
 
@@ -78,8 +75,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **ltx2-greenscreen-avatar-ic-lora-vertical-v1**  
 &nbsp;&nbsp;`2026-05-13 | OmerHagage | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/OmerHagage/ltx2-greenscreen-avatar-ic-lora-vertical-v1) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FOmerHagage%2Fltx2-greenscreen-avatar-ic-lora-vertical-v1&logo=huggingface&style=flat-square)](https://huggingface.co/OmerHagage/ltx2-greenscreen-avatar-ic-lora-vertical-v1)  
-&nbsp;&nbsp;Greenscreen avatar IC LoRA for vertical talking-avatar and presenter-style videos.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Greenscreen avatar IC LoRA for vertical talking-avatar and presenter-style videos. -
 
 ## Camera / Motion Control
 
@@ -110,32 +106,27 @@ This list is organized by task. Within each category, entries are ordered from o
 **Kijai/LTX2-IC-LoRAs**  
 &nbsp;&nbsp;`2026-04-22 | Kijai | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Kijai/LTX2-IC-LoRAs) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FKijai%2FLTX2-IC-LoRAs&logo=huggingface&style=flat-square)](https://huggingface.co/Kijai/LTX2-IC-LoRAs)  
-&nbsp;&nbsp;Bundle of community IC LoRAs including RealisDance and SAM3DBody style control variants.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Bundle of community IC LoRAs including RealisDance and SAM3DBody style control variants. -
 
 **Muapi/cameraman-ic-lora-for-ltx2.3-22b**  
 &nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/cameraman-ic-lora-for-ltx2.3-22b) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FMuapi%2Fcameraman-ic-lora-for-ltx2.3-22b&logo=huggingface&style=flat-square)](https://huggingface.co/Muapi/cameraman-ic-lora-for-ltx2.3-22b)  
-&nbsp;&nbsp;Alternate community Cameraman-style IC LoRA for camera movement control.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Alternate community Cameraman-style IC LoRA for camera movement control. -
 
 **ltx2.3-chinese-drama-iclora-canny**  
 &nbsp;&nbsp;`2026-05-29 | SyFeee | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-canny) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FSyFeee%2Fltx2.3-chinese-drama-iclora-canny&logo=huggingface&style=flat-square)](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-canny)  
-&nbsp;&nbsp;Canny-guided Chinese-drama style control IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Canny-guided Chinese-drama style control IC LoRA. -
 
 **ltx2.3-chinese-drama-iclora-depth**  
 &nbsp;&nbsp;`2026-05-29 | SyFeee | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-depth) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FSyFeee%2Fltx2.3-chinese-drama-iclora-depth&logo=huggingface&style=flat-square)](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-depth)  
-&nbsp;&nbsp;Depth-guided Chinese-drama style control IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Depth-guided Chinese-drama style control IC LoRA. -
 
 **ltx2.3-chinese-drama-iclora-pose**  
 &nbsp;&nbsp;`2026-05-29 | SyFeee | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-pose) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FSyFeee%2Fltx2.3-chinese-drama-iclora-pose&logo=huggingface&style=flat-square)](https://huggingface.co/SyFeee/ltx2.3-chinese-drama-iclora-pose)  
-&nbsp;&nbsp;Pose-guided Chinese-drama style control IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Pose-guided Chinese-drama style control IC LoRA. -
 
 **LTX2.3-22B_IC-LoRA-Cameraman_v2**  
 &nbsp;&nbsp;`2026-06-23 | Cseti | Community`  
@@ -154,14 +145,12 @@ This list is organized by task. Within each category, entries are ordered from o
 **anoxxymane/LTX-23-Inpaint-Remover-IC-LoRA**  
 &nbsp;&nbsp;`2026-06-08 | anoxxymane | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/anoxxymane/LTX-23-Inpaint-Remover-IC-LoRA) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fanoxxymane%2FLTX-23-Inpaint-Remover-IC-LoRA&logo=huggingface&style=flat-square)](https://huggingface.co/anoxxymane/LTX-23-Inpaint-Remover-IC-LoRA)  
-&nbsp;&nbsp;Inpaint-removal IC LoRA with very limited upstream documentation.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Inpaint-removal IC LoRA with very limited upstream documentation. -
 
 **LTX-2.3-22b-IC-LoRA-Instant-Shave**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Instant-Shave) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FLightricks%2FLTX-2.3-22b-IC-LoRA-Instant-Shave&logo=huggingface&style=flat-square)](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Instant-Shave)  
-&nbsp;&nbsp;Official beard-removal IC LoRA for facial cleanup and grooming changes.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Official beard-removal IC LoRA for facial cleanup and grooming changes. -
 
 **LTX-2.3-22b-IC-LoRA-Clean-Plate**  
 &nbsp;&nbsp;`2026-07-19 | Lightricks | Official`  
@@ -172,16 +161,14 @@ This list is organized by task. Within each category, entries are ordered from o
 **ltx-2.3-22b-ic-lora-lens_remover**  
 &nbsp;&nbsp;`2026-07-27 | JanKanta | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FJanKanta%2Fltx-2.3-22b-ic-lora-lens_remover&logo=huggingface&style=flat-square)](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover)  
-&nbsp;&nbsp;Community restoration model focused on removing lens flare and lens artifacts.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community restoration model focused on removing lens flare and lens artifacts. -
 
 ## Enhancement / Restoration
 
 **DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer**  
 &nbsp;&nbsp;`2026-03-13 | DoctorDiffusion | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FDoctorDiffusion%2FLTX-2.3-IC-LoRA-Colorizer&logo=huggingface&style=flat-square)](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer)  
-&nbsp;&nbsp;Community colorization IC LoRA for black-and-white to color restoration workflows.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community colorization IC LoRA for black-and-white to color restoration workflows. -
 
 **LTX-2.3-22b-IC-LoRA-ReFocus**  
 &nbsp;&nbsp;`2026-04-20 | oumoumad | Community`  
@@ -192,20 +179,17 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX-2.3-22b-IC-LoRA-Uncompress**  
 &nbsp;&nbsp;`2026-04-20 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Uncompress) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Foumoumad%2FLTX-2.3-22b-IC-LoRA-Uncompress&logo=huggingface&style=flat-square)](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Uncompress)  
-&nbsp;&nbsp;Community restoration IC LoRA focused on reversing heavy compression damage.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community restoration IC LoRA focused on reversing heavy compression damage. -
 
 **LTX-2.3-22b-IC-LoRA-Deinterlace**  
 &nbsp;&nbsp;`2026-04-28 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Deinterlace) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Foumoumad%2FLTX-2.3-22b-IC-LoRA-Deinterlace&logo=huggingface&style=flat-square)](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Deinterlace)  
-&nbsp;&nbsp;Deinterlacing-focused restoration IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Deinterlacing-focused restoration IC LoRA. -
 
 **LTX-2.3-22b-IC-LoRA-MotionDeblur**  
 &nbsp;&nbsp;`2026-04-28 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-MotionDeblur) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Foumoumad%2FLTX-2.3-22b-IC-LoRA-MotionDeblur&logo=huggingface&style=flat-square)](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-MotionDeblur)  
-&nbsp;&nbsp;Community motion-deblur IC LoRA with sparse upstream documentation.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community motion-deblur IC LoRA with sparse upstream documentation. -
 
 **ltx-2.3-dearchive-lora**  
 &nbsp;&nbsp;`2026-05-07 | oumoumad | Community`  
@@ -248,8 +232,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX-2.3-22b-IC-LoRA-Ungrade**  
 &nbsp;&nbsp;`2026-04-06 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Foumoumad%2FLTX-2.3-22b-IC-LoRA-Ungrade&logo=huggingface&style=flat-square)](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade)  
-&nbsp;&nbsp;Community color ungrading IC LoRA for neutralizing stylized grades.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community color ungrading IC LoRA for neutralizing stylized grades. -
 
 **LTX-2.3-22b-IC-LoRA-HDR**  
 &nbsp;&nbsp;`2026-04-20 | Lightricks | Official`  
@@ -260,8 +243,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **Muapi/ltx2.3_ic_hdr_lora**  
 &nbsp;&nbsp;`2026-05-25 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3_ic_hdr_lora) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FMuapi%2Fltx2.3_ic_hdr_lora&logo=huggingface&style=flat-square)](https://huggingface.co/Muapi/ltx2.3_ic_hdr_lora)  
-&nbsp;&nbsp;Community HDR-style IC LoRA variant for LTX 2.3.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community HDR-style IC LoRA variant for LTX 2.3. -
 
 **LTX-2.3-22b-IC-LoRA-Day-To-Night**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
@@ -272,8 +254,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX-2.3-22b-IC-LoRA-Golden-Hour**  
 &nbsp;&nbsp;`2026-07-22 | Hoffm4nz | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Hoffm4nz/LTX-2.3-22b-IC-LoRA-Golden-Hour) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FHoffm4nz%2FLTX-2.3-22b-IC-LoRA-Golden-Hour&logo=huggingface&style=flat-square)](https://huggingface.co/Hoffm4nz/LTX-2.3-22b-IC-LoRA-Golden-Hour)  
-&nbsp;&nbsp;Community golden-hour relighting and tone-shift LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community golden-hour relighting and tone-shift LoRA. -
 
 **LTX-2.3-22b-IC-LoRA-Relight**  
 &nbsp;&nbsp;`2026-07-27 | Lightricks | Official`  
@@ -284,8 +265,7 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX-2.3-Black-Magic-LoRA**  
 &nbsp;&nbsp;`2026-07-27 | FuzzPuppy | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FFuzzPuppy%2FLTX-2.3-Black-Magic-LoRA&logo=huggingface&style=flat-square)](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA)  
-&nbsp;&nbsp;Community low-light reconstruction and shadow-detail recovery IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community low-light reconstruction and shadow-detail recovery IC LoRA. -
 
 ## Outpaint / Expansion / Viewpoint
 
@@ -304,14 +284,12 @@ This list is organized by task. Within each category, entries are ordered from o
 **Muapi/vr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora**  
 &nbsp;&nbsp;`2026-05-26 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/vr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FMuapi%2Fvr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora&logo=huggingface&style=flat-square)](https://huggingface.co/Muapi/vr-outpaint-ic-lora-ltx2.3-equirectangular-outpaint-lora)  
-&nbsp;&nbsp;Community VR and equirectangular outpaint IC LoRA variant for LTX 2.3.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community VR and equirectangular outpaint IC LoRA variant for LTX 2.3. -
 
 **LTX-2.3-22b-IC-LoRA-In-Outpainting**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FLightricks%2FLTX-2.3-22b-IC-LoRA-In-Outpainting&logo=huggingface&style=flat-square)](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting)  
-&nbsp;&nbsp;Official inpainting and outpainting IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Official inpainting and outpainting IC LoRA. -
 
 **LTX2.3-22B_IC-LoRA-CrossView-Prompt**  
 &nbsp;&nbsp;`2026-07-11 | Cseti | Community`  
@@ -330,14 +308,12 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX2.3-22B_ReStyle_IC-LoRA**  
 &nbsp;&nbsp;`2026-05-05 | Cseti | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FCseti%2FLTX2.3-22B_ReStyle_IC-LoRA&logo=huggingface&style=flat-square)](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA)  
-&nbsp;&nbsp;Community restyle model with broad video style-transfer examples.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community restyle model with broad video style-transfer examples. -
 
 **Muapi/ltx2.3-restyle-ic-lora**  
 &nbsp;&nbsp;`2026-05-26 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-restyle-ic-lora) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FMuapi%2Fltx2.3-restyle-ic-lora&logo=huggingface&style=flat-square)](https://huggingface.co/Muapi/ltx2.3-restyle-ic-lora)  
-&nbsp;&nbsp;Community restyle IC LoRA variant for LTX 2.3.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Community restyle IC LoRA variant for LTX 2.3. -
 
 **LTX-2.3-3DREAL-LoRA**  
 &nbsp;&nbsp;`2026-06-26 | fal | Official`  
@@ -348,34 +324,29 @@ This list is organized by task. Within each category, entries are ordered from o
 **ltx-2.3-22b-ic-lora-abercrom-me**  
 &nbsp;&nbsp;`2026-07-25 | CoachBate | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FCoachBate%2Fltx-2.3-22b-ic-lora-abercrom-me&logo=huggingface&style=flat-square)](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me)  
-&nbsp;&nbsp;Editorial fashion restyle IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Editorial fashion restyle IC LoRA. -
 
 ## Multi-purpose / Experimental
 
 **TTM_IC-lora_ltx2.3**  
 &nbsp;&nbsp;`2026-03-18 | siraxe | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fsiraxe%2FTTM_IC-lora_ltx2.3&logo=huggingface&style=flat-square)](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3)  
-&nbsp;&nbsp;Experimental inserted-cutout and motion-transfer IC LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Experimental inserted-cutout and motion-transfer IC LoRA. -
 
 **MergeGreen_IC-lora_ltx2.3**  
 &nbsp;&nbsp;`2026-04-04 | siraxe | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fsiraxe%2FMergeGreen_IC-lora_ltx2.3&logo=huggingface&style=flat-square)](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3)  
-&nbsp;&nbsp;Transition and loop control IC LoRA using green-fill merge frames.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Transition and loop control IC LoRA using green-fill merge frames. -
 
 **ltx2.3-staging-ic-lora-512**  
 &nbsp;&nbsp;`2026-04-13 | Nightfury16 | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Nightfury16/ltx2.3-staging-ic-lora-512) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FNightfury16%2Fltx2.3-staging-ic-lora-512&logo=huggingface&style=flat-square)](https://huggingface.co/Nightfury16/ltx2.3-staging-ic-lora-512)  
-&nbsp;&nbsp;Staging and composition-oriented IC LoRA with minimal documentation.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Staging and composition-oriented IC LoRA with minimal documentation. -
 
 **fxic-ltx2-iclora**  
 &nbsp;&nbsp;`2026-04-18 | oumoumad | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/fxic-ltx2-iclora) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Foumoumad%2Ffxic-ltx2-iclora&logo=huggingface&style=flat-square)](https://huggingface.co/oumoumad/fxic-ltx2-iclora)  
-&nbsp;&nbsp;Experimental IC LoRA with sparse upstream documentation.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Experimental IC LoRA with sparse upstream documentation. -
 
 **SYSTMS-FLW-IC-LORA-LTX-2.3**  
 &nbsp;&nbsp;`2026-05-13 | systms | Community`  
@@ -386,14 +357,12 @@ This list is organized by task. Within each category, entries are ordered from o
 **LTX-2.3-22b-IC-LoRA-Helium**  
 &nbsp;&nbsp;`2026-05-30 | fbjr | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Helium) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Ffbjr%2FLTX-2.3-22b-IC-LoRA-Helium&logo=huggingface&style=flat-square)](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Helium)  
-&nbsp;&nbsp;Experimental audio-driven pitch and style effect LoRA.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Experimental audio-driven pitch and style effect LoRA. -
 
 **LTX-2.3-22b-IC-LoRA-Audio-Only-Context**  
 &nbsp;&nbsp;`2026-06-01 | fbjr | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Audio-Only-Context) | [![HF likes](https://img.shields.io/badge/dynamic/json?label=likes&query=%24.likes&url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Ffbjr%2FLTX-2.3-22b-IC-LoRA-Audio-Only-Context&logo=huggingface&style=flat-square)](https://huggingface.co/fbjr/LTX-2.3-22b-IC-LoRA-Audio-Only-Context)  
-&nbsp;&nbsp;Experimental audio-only IC context and identity conditioning.  
-&nbsp;&nbsp;-
+&nbsp;&nbsp;Experimental audio-only IC context and identity conditioning. -
 
 **LTX-2.3-22b-IC-LoRA-Water-Simulation**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
