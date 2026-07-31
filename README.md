@@ -6,7 +6,6 @@ This list is organized by task. Within each category, the newest verified releas
 
 ## Contents
 
-- [How This Repo Is Organized](#how-this-repo-is-organized)
 - [Identity / Character Consistency](#identity--character-consistency)
 - [Lip Sync / Dubbing](#lip-sync--dubbing)
 - [Camera / Motion Control](#camera--motion-control)
@@ -29,6 +28,11 @@ This list is organized by task. Within each category, the newest verified releas
 &nbsp;&nbsp;`2026-07-06 | linoyts | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot) | - | -  
 &nbsp;&nbsp;Multi-shot ingredients-based reference consistency fine-tune.
+
+**Muapi/ltx2.3-ic-lora-dual-character**  
+&nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) | - | -  
+&nbsp;&nbsp;Dual-character IC LoRA for keeping two subjects consistent in the same scene.
 
 **LTX-2.3-22b-IC-LoRA-Ingredients**  
 &nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
@@ -133,6 +137,16 @@ This list is organized by task. Within each category, the newest verified releas
 &nbsp;&nbsp;Editing and cleanup suite for watermark, subtitle, and structure-aware correction tasks.  
 &nbsp;&nbsp;[@liugenai](https://www.youtube.com/watch?v=FVpZhgi64BU) | [@SweetValberry](https://www.youtube.com/watch?v=SQs9X2M9IVA) | [FutuTek](https://www.youtube.com/watch?v=5vPrbUIgoTg) | [Doc_workBox](https://www.youtube.com/watch?v=-J1N67v1aR0) | [FutuTek](https://www.youtube.com/watch?v=bAN7XdRa-20)
 
+**anoxxymane/LTX-23-Inpaint-Remover-IC-LoRA**  
+&nbsp;&nbsp;`2026-06-08 | anoxxymane | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/anoxxymane/LTX-23-Inpaint-Remover-IC-LoRA) | - | -  
+&nbsp;&nbsp;Inpaint-removal IC LoRA with very limited upstream documentation.
+
+**LTX-2.3-22b-IC-LoRA-Instant-Shave**  
+&nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Instant-Shave) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+&nbsp;&nbsp;Official beard-removal IC LoRA for facial cleanup and grooming changes.
+
 ## Enhancement / Restoration
 
 **LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler**  
@@ -175,6 +189,16 @@ This list is organized by task. Within each category, the newest verified releas
 &nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-ReFocus) | - | -  
 &nbsp;&nbsp;Refocus and lens-blur restoration IC LoRA.  
 &nbsp;&nbsp;[WuYangfeng](https://www.youtube.com/watch?v=adjZm7be2oQ) | [TRAFFICANT3](https://www.youtube.com/watch?v=C-Xz2WUdmBA)
+
+**LTX-2.3-22b-IC-LoRA-Uncompress**  
+&nbsp;&nbsp;`2026-04-20 | oumoumad | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Uncompress) | - | -  
+&nbsp;&nbsp;Community restoration IC LoRA focused on reversing heavy compression damage.
+
+**LTX-2.3-22b-IC-LoRA-MotionDeblur**  
+&nbsp;&nbsp;`2026-04-28 | oumoumad | Community`  
+&nbsp;&nbsp;[HF](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-MotionDeblur) | - | -  
+&nbsp;&nbsp;Community motion-deblur IC LoRA with sparse upstream documentation.
 
 ## Relighting / HDR / Tone
 
@@ -266,6 +290,11 @@ This list is organized by task. Within each category, the newest verified releas
 &nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Water-Simulation) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
 &nbsp;&nbsp;Official VFX-oriented IC LoRA for adding water, flood, and stream behavior.  
 &nbsp;&nbsp;[@jun_kongo](https://www.youtube.com/watch?v=t7oSjgn2XSw)
+
+**LTX-2.3-22b-IC-LoRA-Cross-Eyed**  
+&nbsp;&nbsp;`2026-06-17 | Lightricks | Official`  
+&nbsp;&nbsp;[HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Cross-Eyed) | [GitHub](https://github.com/Lightricks/LTX-2) | [![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-2?style=flat-square)](https://github.com/Lightricks/LTX-2)  
+&nbsp;&nbsp;Official novelty or facial-effect IC LoRA with limited public discussion so far.
 
 **LTX-2.3-22b-IC-LoRA-Audio-Only-Context**  
 &nbsp;&nbsp;`2026-06-01 | fbjr | Community`  
