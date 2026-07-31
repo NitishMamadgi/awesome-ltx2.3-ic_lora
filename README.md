@@ -34,12 +34,14 @@ This list is organized by task. Within each category, entries are ordered from o
 **LiconStudio/Ltx2.3-VBVR-lora-I2V**  
 &nbsp;&nbsp;`2026-04-08 | LiconStudio | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) | - | -  
-&nbsp;&nbsp;VBVR image-to-video LoRA for stronger visual and logical consistency in generated clips.
+&nbsp;&nbsp;VBVR image-to-video LoRA for stronger visual and logical consistency in generated clips.  
+&nbsp;&nbsp;[Licon Studio](https://www.youtube.com/shorts/EtgF6_tTuHg) | [WuYangfeng](https://www.youtube.com/watch?v=R-R7caNZj0g)
 
 **Muapi/ltx2.3-ic-lora-dual-character**  
 &nbsp;&nbsp;`2026-05-23 | Muapi | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) | - | -  
-&nbsp;&nbsp;Dual-character IC LoRA for keeping two subjects consistent in the same scene.
+&nbsp;&nbsp;Dual-character IC LoRA for keeping two subjects consistent in the same scene.  
+&nbsp;&nbsp;-
 
 **LTX-2.3-Multiple-Subject-Reference**  
 &nbsp;&nbsp;`2026-06-01 | LiconStudio | Official`  
@@ -56,12 +58,14 @@ This list is organized by task. Within each category, entries are ordered from o
 **ltx2.3-ic-lora-ingredients-multishot**  
 &nbsp;&nbsp;`2026-07-06 | linoyts | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/linoyts/ltx2.3-ic-lora-ingredients-multishot) | - | -  
-&nbsp;&nbsp;Multi-shot ingredients-based reference consistency fine-tune.
+&nbsp;&nbsp;Multi-shot ingredients-based reference consistency fine-tune.  
+&nbsp;&nbsp;-
 
 **Homelander_LTX2.3**  
 &nbsp;&nbsp;`2026-07-24 | ssjenforcer191 | Community`  
 &nbsp;&nbsp;[HF](https://huggingface.co/ssjenforcer191/Homelander_LTX2.3) | - | -  
-&nbsp;&nbsp;Character identity IC LoRA for Homelander-themed subject consistency.
+&nbsp;&nbsp;Character identity IC LoRA for Homelander-themed subject consistency.  
+&nbsp;&nbsp;-
 
 ## Lip Sync / Dubbing
 
